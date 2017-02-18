@@ -1,5 +1,5 @@
 'use strict';
-const express = require('express')
+const express = require('express');
 const path = require("path");
 
 
@@ -19,3 +19,4 @@ app.use(bodyParser.urlencoded({
 app.post('/api/summaryBot', function (req, res) {
     console.log("Called now with this body: " + JSON.stringify(req.body));
 });
+
